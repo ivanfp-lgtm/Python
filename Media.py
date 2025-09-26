@@ -1,0 +1,10 @@
+print('Dame un número')
+num1 = int(input())
+print('Dame otro número')
+num2 = int(input())
+print('Dame otro número')
+num3 = int(input())
+print('Dame otro número')
+num4 = int(input())
+media = (num1+num2+num3+num4)/4
+print(f'La media de los números es {media: .3f}')
